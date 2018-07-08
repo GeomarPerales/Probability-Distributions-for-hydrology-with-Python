@@ -207,7 +207,7 @@ for i in range(len(N5)):
     W5[i]=((math.log(1/Px5[i]**2)))**0.5
     k5[i]=W5[i]-(co+c1*W5[i]+c2*W5[i]**2)/(1+d1*W5[i]+d2*W5[i]**2+d3*W5[i]**3);
 
-FF199=Table([TM5,N5,Px5,W5,k5])
+FF999=Table([TM5,N5,Px5,W5,k5])
             
 
 
