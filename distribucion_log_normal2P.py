@@ -13,7 +13,7 @@ dy1=(math.log(1+cvQ**2))**0.5
 V_DN2P=[cvQ,uy1,dy1]
 
 #valores obtenidos de la tabla de frecuencias de weibull
-#NOTA: ACOPLAR 'factores_frecuencia_weibull' A 'distribucion_<title>'
+#NOTA: ACOPLAR 'factores_frecuencia_weibull.py' A 'distribucion_<title>'
 VAE=[k2[49],k2[79],k2[89],k2[94],k2[97],k2[98],k3[198],k4[498],k5[998]]
 
 Q_ln2t=np.zeros((len(VAE)))
