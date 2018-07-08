@@ -20,7 +20,7 @@ al=1.2825/dst #alfa
 u=xm-0.45*dst #u
 
 #valores obtenidos de la tabla de frecuencias de weibull
-#NOTA: ACOPLAR 'factores_frecuencia_weibull' A 'distribucion_<title>.py'
+#NOTA: ACOPLAR 'factores_frecuencia_weibull.py' A 'distribucion_<title>.py'
 Px=[Px22[49],Px22[79],Px22[89],Px22[94],Px22[97],Px22[98],Px33[198],Px44[498],Px55[998]]
 
 Ytg=np.zeros((len(Px)))
