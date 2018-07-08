@@ -25,7 +25,7 @@ cv_lp=ds_lp/xm_lp
 V_LP=[xm,ds_lp,cv_lp]
 
 #valores obtenidos de la tabla de frecuencias de weibull
-#NOTA: ACOPLAR 'factores_frecuencia_weibull' A 'distribucion_<title>'
+#NOTA: ACOPLAR 'factores_frecuencia_weibull.py' A 'distribucion_<title>'
 
 Px=[Px22[49],Px22[79],Px22[89],Px22[94],Px22[97],Px22[98],Px33[198],Px44[498],Px55[998]]
 VAE=[k2[49],k2[79],k2[89],k2[94],k2[97],k2[98],k3[198],k4[498],k5[998]] #var. aleatoria 
