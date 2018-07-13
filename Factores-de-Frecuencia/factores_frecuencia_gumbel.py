@@ -16,7 +16,6 @@ for i in range(len(TM)):
     for j in range((len(np.arange(TM[i])))):
         A[i][j]=-np.log(-np.log((n[i]+1-(j+1))/(n[i]+1)));
 
-
 #media y desviación standard de cada serie
 M=np.zeros((len(TM)))
 DS=np.zeros((len(TM)))
