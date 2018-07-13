@@ -31,7 +31,6 @@ for i in range (len(tv)):
     for j in range(len(th)):
         Fz[i][j]=(ao+a1*(tv[i]+th[j])**2+a2*(tv[i]+th[j])**4+a3*(tv[i]+th[j])**6)**(-1)
 
-
 #----------------------------------------------------------------------------------------
 #ABRAMOWITSY
 #calculo de T
@@ -124,8 +123,6 @@ for i in range(len(N1)):
 
 FF59=Table([TM1,N1,Px1,W1,k1])
 
-
-
 #muestra 1-99
 N2=np.arange(1,100)
 
@@ -146,8 +143,6 @@ for i in range(len(N2)):
 
 FF99=Table([TM2,N2,Px2,W2,k2])
 
-
-
 #muestra 1-199
 N3=np.arange(1,200)
 
@@ -167,9 +162,7 @@ for i in range(len(N3)):
     k3[i]=W3[i]-(co+c1*W3[i]+c2*W3[i]**2)/(1+d1*W3[i]+d2*W3[i]**2+d3*W3[i]**3);
 
 FF199=Table([TM3,N3,Px3,W3,k3])
-
-
-            
+       
 #muestra 1-499
 N4=np.arange(1,500)
 
@@ -190,8 +183,6 @@ for i in range(len(N4)):
 
 FF499=Table([TM4,N4,Px4,W4,k4])
             
-
-       
 #muestra 1-999
 N5=np.arange(1,1000)
 
@@ -233,10 +224,7 @@ Q_n=np.zeros((len(VAE)))
 
 for i in range (len(VAE)):
     Q_n[i]=xm+VAE[i]*dst #caudales segun Dist. NORMAL
-
-
-
-        
+  
 #TABLA DE FACTOR DE FRECUENCIA para prob. 50%, 80%, 90% y 100% y
 #coeficiente de variación (CV) que varian de 0.05 hasta 1.00.
 
@@ -247,8 +235,6 @@ kn=np.zeros((len(cvn),len(VAE)))
 for i in range (len(cvn)):
     for j in range(len(VAE)):
         kn[i][j]=(math.exp((math.log(1+cvn[i]**2))**0.5*VAE[j]-0.5*(math.log(1+cvn[i]**2)))-1)/cvn[i]
-
-
 
 #LOG NORMAL 2P
 lnQ=np.log(Q)
@@ -274,7 +260,6 @@ for i in range(len(VAE)):
 
 for i in range(len(cv2p)):
     Q_ln2k[i]=xm+cv2p[i]*dst; #caudales segun Dist. LOG PEARSON 2P
-
 
 #LOG NORMAL 3P
 sg=0
@@ -302,7 +287,6 @@ Q_ln3k=np.zeros((len(VAE)))
 for i in range(len(VAE)):
     Q_ln3t[i]=xo+math.exp(uy2+VAE[i]*dy2) #caudales segun Dist. LOG PEARSON 3P
 
-
 #usando k - hallamos Q
 for i in range(len(VAE)):
     k_cv3[i]=(np.exp((np.log(1+Z2**2))**0.5*VAE[i]-0.5*(np.log(1+Z2**2)))-1)/Z2
@@ -310,8 +294,6 @@ for i in range(len(VAE)):
 
 for i in range(len(VAE)):
     Q_ln3k[i]=xm+k_cv3[i]*dst #caudales segun Dist. LOG PEARSON 3P
-
-
 
 #TABLA DE FACTOR DE FRECUENCIA PARA GUMBEL
 #PARA PROB. DE 50%,80%,90%, 95% Y 100 CON INC. DE 5 U
@@ -325,7 +307,6 @@ for i in range(len(TM)):
     n[i]=len(np.arange(1,(TM[i]+1)))
     for j in range((len(np.arange(TM[i])))):
         A[i][j]=-np.log(-np.log((n[i]+1-(j+1))/(n[i]+1)));
-
 
 #media y desviación standard de cada serie
 M=np.zeros((len(TM)))
@@ -347,8 +328,6 @@ for i in range(len(TM)):
     for j in range(len(f_TR)):
         Yt[i][j]=-(M[i]-f_TR[j])/DS[i]
     
-
-
 #DISTRIBUCION GUMBEL
 al=1.2825/dst #alfa
 u=xm-0.45*dst #u
@@ -379,7 +358,6 @@ for i in range(len(Ytg)):
         k_g[i]=(Ytg[i]-xmg)/d_stg
         Q_gk[i]=xm+k_g[i]*dst
 
-
 #TABLA DE FRECUENCIA PEARSON
 #prob .... y coe;f de sesgo de 0.0 a 2.0 con inc de 0.1
 csp=np.arange(0,2.1,0.1)
@@ -395,7 +373,6 @@ for i in range(len(csp)):
         P1[i][j]=VAE[j]+(VAE[j]**2-1)*gcp[i]+(VAE[j]**3-6*VAE[j])*gcp[i]**2/3
         P2[i][j]=-(VAE[j]**2-1)*gcp[i]**3+VAE[j]*gcp[i]**4+gcp[i]**5/3
         k_p[i][j]=P1[i][j]-P2[i][j]
-
 
 #DISTRIBUCION PEARSON
 #variables a usar
@@ -417,7 +394,6 @@ Q_pt=np.zeros((len(Px)))
 for i in range(len(Px)):
     Q_pt[i]=alf*be*(1-1/9/be+VAE[i]*math.sqrt(1/9/be))**3+y
 
-
 #mediante k
 P11=np.zeros((len(VAE)))
 P22=np.zeros((len(VAE)))
@@ -433,7 +409,6 @@ Q_pk=np.zeros((len(VAE)))
 
 for i in range(len(VAE)):
     Q_pk[i]=xm+kp1[i]*dst
-
 
 #DISTRIBUCIÓN LOG PEARSON
 xm_lp=stats.mean(lnQ)
@@ -464,7 +439,6 @@ Q_lpt=np.zeros((len(VAE)))
 for i in range(len(VAE)):
     Q_lpt[i]=np.exp(al_lp*be_lp*(1-1/9/be_lp+VAE[i]*(1/9/be_lp)**0.5)**3+y_lp)
 
-
 #variable k
 P111=np.zeros((len(VAE)))
 P222=np.zeros((len(VAE)))
@@ -480,4 +454,3 @@ Q_lpk=np.zeros((len(VAE)))
 
 for i in range(len(VAE)):
     Q_lpk[i]=np.exp(xm_lp+kp2[i]*ds_lp)
-
