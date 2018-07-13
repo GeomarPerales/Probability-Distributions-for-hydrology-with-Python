@@ -28,6 +28,5 @@ for i in range(len(VAE)):
 for i in range(len(VAE)):
     cv2p[i]=(np.exp((np.log(1+cvQ**2))**0.5*VAE[i]-0.5*(np.log(1+cvQ**2)))-1)/cvQ;
 
-
 for i in range(len(cv2p)):
     Q_ln2k[i]=xm+cv2p[i]*dst; #caudales segun Dist. LOG PEARSON 2P
