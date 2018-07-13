@@ -9,7 +9,6 @@ import math
 #NOTA: ACOPLAR 'factores_frecuencia_weibull.py' A '<title>.py'
 VAE=[k2[49],k2[79],k2[89],k2[94],k2[97],k2[98],k3[198],k4[498],k5[998]] #var. aleatoria standard
 
-
 cvn=np.arange(0.05,1.05,0.05)
 kn=np.zeros((len(cvn),len(VAE)))
 
