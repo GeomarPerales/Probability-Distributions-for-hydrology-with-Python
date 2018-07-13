@@ -44,11 +44,9 @@ Q_ln3k=np.zeros((len(VAE)))
 for i in range(len(VAE)):
     Q_ln3t[i]=xo+math.exp(uy2+VAE[i]*dy2) #caudales segun Dist. LOG PEARSON 3P
 
-
 #usando k - hallamos Q
 for i in range(len(VAE)):
     k_cv3[i]=(np.exp((np.log(1+Z2**2))**0.5*VAE[i]-0.5*(np.log(1+Z2**2)))-1)/Z2
-
 
 for i in range(len(VAE)):
     Q_ln3k[i]=xm+k_cv3[i]*dst #caudales segun Dist. LOG PEARSON 3P
