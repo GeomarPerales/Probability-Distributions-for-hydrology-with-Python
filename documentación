@@ -1,0 +1,12 @@
+1.-OBJETIVOS DEL REPOSITORIO
+
+- 
+
+2.-¿COMO USAR?
+
+- Los programas fueron desarrollados en Python 3.6 usando las librerías: Math, Numpy, Statistics y Pandas para archivos CSV. 
+- 
+4.-LIMITACIONES
+
+4.1. 
+4.2. Los tiempos de retorno estandarizados son de:2, 5, 10, 25, 50, 100, 200, 500, 1000 años.
