@@ -13,8 +13,6 @@ xm=stats.mean(Q) #media
 dst=stats.stdev(Q) #desv. standard de la muestra
 cv=xm/dst #coef. de variacion
 
-
-
 #valores obtenidos de la tabla de frecuencias de weibull
 #NOTA: ACOPLAR 'factores_frecuencia_weibull.py' A '<title>.py'
 
