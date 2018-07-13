@@ -28,7 +28,6 @@ for i in range (len(tv)):
     for j in range(len(th)):
         Fz[i][j]=(ao+a1*(tv[i]+th[j])**2+a2*(tv[i]+th[j])**4+a3*(tv[i]+th[j])**6)**(-1)
 
-
 #----------------------------------------------------------------------------------------
 #ABRAMOWITSY
 #calculo de T
@@ -121,8 +120,6 @@ for i in range(len(N1)):
 
 FF59=Table([TM1,N1,Px1,W1,k1])
 
-
-
 #muestra 1-99
 N2=np.arange(1,100)
 
@@ -143,8 +140,6 @@ for i in range(len(N2)):
 
 FF99=Table([TM2,N2,Px2,W2,k2])
 
-
-
 #muestra 1-199
 N3=np.arange(1,200)
 
@@ -164,9 +159,7 @@ for i in range(len(N3)):
     k3[i]=W3[i]-(co+c1*W3[i]+c2*W3[i]**2)/(1+d1*W3[i]+d2*W3[i]**2+d3*W3[i]**3);
 
 FF199=Table([TM3,N3,Px3,W3,k3])
-
-
-            
+      
 #muestra 1-499
 N4=np.arange(1,500)
 
@@ -186,9 +179,7 @@ for i in range(len(N4)):
     k4[i]=W4[i]-(co+c1*W4[i]+c2*W4[i]**2)/(1+d1*W4[i]+d2*W4[i]**2+d3*W4[i]**3);
 
 FF499=Table([TM4,N4,Px4,W4,k4])
-            
-
-            
+                
 #muestra 1-999
 N5=np.arange(1,1000)
 
