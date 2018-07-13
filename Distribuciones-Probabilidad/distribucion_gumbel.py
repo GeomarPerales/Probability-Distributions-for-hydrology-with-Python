@@ -6,8 +6,6 @@ import statistics as stats
 import pandas as pd
 from csv import reader
 
-
-
 data=pd.read_csv('data.csv')
 a=data['registro']
 Q=data['caudal']
