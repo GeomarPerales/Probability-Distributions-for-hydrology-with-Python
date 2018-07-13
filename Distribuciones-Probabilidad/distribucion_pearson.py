@@ -45,7 +45,6 @@ Q_pt=np.zeros((len(Px)))
 for i in range(len(Px)):
     Q_pt[i]=alf*be*(1-1/9/be+VAE[i]*math.sqrt(1/9/be))**3+y
 
-
 #mediante k
 P11=np.zeros((len(VAE)))
 P22=np.zeros((len(VAE)))
