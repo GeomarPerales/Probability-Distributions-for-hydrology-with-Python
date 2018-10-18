@@ -1,7 +1,7 @@
 # Statistical-hydrology-with-python
 Códigos desarrollados para Hidrología Estadística - IMF - UNMSM.
 
-#contenido:
+# contenido:
 
 -Tablas 't' y 'F(z)' de Abramowitz , stegun y Masting.
 - Distribución Log Normal 2 Parámetros
