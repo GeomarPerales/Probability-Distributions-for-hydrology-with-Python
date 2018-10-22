@@ -2,7 +2,7 @@
 
 Códigos desarrollados para Hidrología Estadística - IMF - UNMSM.
 
-# contenido:
+## 1. Contenido:
 
 -Tablas 't' y 'F(z)' de Abramowitz , stegun y Masting.
 - Distribución Log Normal 2 Parámetros
