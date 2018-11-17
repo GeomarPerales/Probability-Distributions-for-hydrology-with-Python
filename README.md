@@ -10,7 +10,9 @@ Las distribuciones de probabilidad se utilizan en muy diversos estudios hidroló
 
 ## 2. Contenido:
 
--Tablas 't' y 'F(z)' de Abramowitz , stegun y Masting.
+El repositorio contiene las siguientes Distribuciones de Probabilidad y Tablas de Frecuencias desarrollados en Python 3.6.:
+
+- Tablas 't' y 'F(z)' de Abramowitz , stegun y Masting.
 - Distribución Log Normal 2 Parámetros
 - Distribución Log Normal 3 Parámetros
 - Distribución Log Pearson
