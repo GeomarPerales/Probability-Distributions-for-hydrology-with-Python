@@ -2,7 +2,11 @@
 
 ## 1. Descripción:
 
-Distribuciones de Probabilidad para hidrología con Python.
+Una distribución de Probabilidad es una función que representa la probabilidad de ocurrencia de una variable aleatoria.
+
+Las distribuciones de probabilidad se utilizan en muy diversos estudios hidrológicos, particularmente en estudios de caudales altos y bajos extremos, crecidas, volúmenes de embalse, cantidades de precipitación de lluvia y modelos de series temporales.
+
+> Caso de aplicación: Determinación de caudales en ciertos períodos de retorno.
 
 ## 2. Contenido:
 
@@ -26,7 +30,3 @@ Colombiana de Ingeniería.
 Rica.
 
 [3] Chow, V.; Maidment, D. & Mays, L. (1994) Hidrología Aplicada. Bgotá, Colombia: McGRAW-HILL INTERAMERICANA S.A.  
-
-
-
-
