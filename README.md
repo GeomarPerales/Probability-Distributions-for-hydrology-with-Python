@@ -23,10 +23,12 @@ The repository contains the following Probability Distributions and Frequency Ta
 
 ## 3. References
 
-[1] Monsalve, G. (1995). Hidrología en la Ingeniería. Bogotá, Colombia: Escuela
-Colombiana de Ingeniería.
+[1] Monsalve, G. (1995). Hidrología en la Ingeniería. Bogotá, Colombia: Escuela Colombiana de Ingeniería.
 
-[2] Villón, M. (2006). Hidrología Estadística. Costa Rica: Tecnológica de Costa
-Rica.
+[2] Villón, M. (2006). Hidrología Estadística. Costa Rica: Tecnológica de Costa Rica.
 
 [3] Chow, V.; Maidment, D. & Mays, L. (1994) Hidrología Aplicada. Bgotá, Colombia: McGRAW-HILL INTERAMERICANA S.A.  
+
+## 4. Acknowledgments
+
+To Mg. Eng. Jorge Gastelo Villanueva, Professor of statistical hydrology, UNMSM, and Harold Mendoza Romero.
