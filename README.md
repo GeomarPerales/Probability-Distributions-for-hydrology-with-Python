@@ -1,29 +1,27 @@
 # Probability Distributions for hydrology with Python
 
-## 1. Descripción:
+## 1. Summary
 
-Una distribución de Probabilidad es una función que representa la probabilidad de ocurrencia de una variable aleatoria.
+A Probability distribution is a function that represents the probability of occurrence of a random variable. Probability distributions are used in various hydrological studies, particularly in studies of extreme flows, floods, etc. 
 
-Las distribuciones de probabilidad se utilizan en muy diversos estudios hidrológicos, particularmente en estudios de caudales altos y bajos extremos, crecidas, volúmenes de embalse, cantidades de precipitación de lluvia y modelos de series temporales.
+> Application case: Determination of maximum flows for different return periods.
 
-> Caso de aplicación: Determinación de caudales en ciertos períodos de retorno.
+## 2. Contents
 
-## 2. Contenido:
+The repository contains the following Probability Distributions and Frequency Tables developed in Python 3.6: 
 
-El repositorio contiene las siguientes Distribuciones de Probabilidad y Tablas de Frecuencias desarrollados en Python 3.6.:
+- Abramowitz, stegun and Masting tables ("t" y "F(z)")
+- 2-Parameter Log Normal Distribution 
+- 3-Parameter Log Normal Distribution 
+- Log Pearson Distribution 
+- Normal Distribution 
+- Pearson Distribution 
+- Gumbel frequency factors 
+- Normal frequency factors 
+- Pearson frequency factors 
+- Weibul frequency factors
 
-- Tablas 't' y 'F(z)' de Abramowitz , stegun y Masting.
-- Distribución Log Normal 2 Parámetros
-- Distribución Log Normal 3 Parámetros
-- Distribución Log Pearson
-- Distribución Normal
-- Distribución Pearson
-- Factores de frecuencia Gumbel
-- Factores de frecuencia Normal
-- Factores de frecuencia Pearson
-- Factores de frecuencia Weibul
-
-## 3. Referencias 
+## 3. References
 
 [1] Monsalve, G. (1995). Hidrología en la Ingeniería. Bogotá, Colombia: Escuela
 Colombiana de Ingeniería.
