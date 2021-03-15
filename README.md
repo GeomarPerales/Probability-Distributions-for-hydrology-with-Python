@@ -15,7 +15,8 @@ The repository contains the following Probability Distributions and Frequency Ta
 - 3-Parameter Log Normal Distribution 
 - Log Pearson Distribution 
 - Normal Distribution 
-- Pearson Distribution 
+- Pearson Distribution
+- Gumbel Distribution 
 - Gumbel frequency factors 
 - Normal frequency factors 
 - Pearson frequency factors 
