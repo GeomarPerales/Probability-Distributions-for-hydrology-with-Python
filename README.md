@@ -39,4 +39,4 @@ the return times are: 2, 5, 10, 25, 50, 100, 200, 500, 1000 years.
 
 ## 5. Acknowledgments
 
-To Mg. Eng. Jorge Gastelo Villanueva, Professor of statistical hydrology, UNMSM, and Harold Mendoza Romero.
+To Mg. Eng. Jorge Gastelo Villanueva, Professor of statistical hydrology, UNMSM, and Harold Mendoza Romero, Engineering Bachelor.
