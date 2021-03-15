@@ -21,6 +21,8 @@ The repository contains the following Probability Distributions and Frequency Ta
 - Pearson frequency factors 
 - Weibul frequency factors
 
+the return times are: 2, 5, 10, 25, 50, 100, 200, 500, 1000 years.
+
 ## 3. Recommendations
 
 - install following libraries: Math, Numpy, Statistics and Pandas.
