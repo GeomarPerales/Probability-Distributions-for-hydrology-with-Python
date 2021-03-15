@@ -21,7 +21,12 @@ The repository contains the following Probability Distributions and Frequency Ta
 - Pearson frequency factors 
 - Weibul frequency factors
 
-## 3. References
+## 3. Recommendations
+
+- install following libraries: Math, Numpy, Statistics and Pandas.
+- Download files and execute. 
+
+## 4. References
 
 [1] Monsalve, G. (1995). Hidrología en la Ingeniería. Bogotá, Colombia: Escuela Colombiana de Ingeniería.
 
@@ -29,6 +34,6 @@ The repository contains the following Probability Distributions and Frequency Ta
 
 [3] Chow, V.; Maidment, D. & Mays, L. (1994) Hidrología Aplicada. Bgotá, Colombia: McGRAW-HILL INTERAMERICANA S.A.  
 
-## 4. Acknowledgments
+## 5. Acknowledgments
 
 To Mg. Eng. Jorge Gastelo Villanueva, Professor of statistical hydrology, UNMSM, and Harold Mendoza Romero.
